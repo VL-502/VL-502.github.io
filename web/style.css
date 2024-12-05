@@ -1,0 +1,110 @@
+header,section,footer{
+    background-color:#231C1A ;
+    border: 0;
+    padding: 0;
+}
+
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+
+header {
+    background-color:rgb(0, 15, 129);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: -20px;
+    
+}
+header ul{
+    
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 80px;
+
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top:0;
+    line-height: 80px;
+}
+/*鼠标悬停下划线*/
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration:underline;
+}
+.sec1{
+    background-color: antiquewhite;
+    color:white ;
+    height: 85vh;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec1 h2{
+    font-size: 60px;
+}
+.sec2{
+    background-color:#105186 ;
+    color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8em;
+
+}
+footer{
+    background-color: #000000;
+    color: white;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+
+}
+.sec3{
+    display:flex ;
+}
+.sec3 img{
+    width: 50%;
+}
+.sec3 a{
+    color:rgba(255, 255, 255, 0.645);
+    text-decoration: none;
+}
+.sec3 a:hover{
+    text-decoration: underline;
+}
+.info{
+    width: 50%;
+    background-color:#2f4f4f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.info p{
+    text-align: center;
+    line-height: 2em;
+}
+
